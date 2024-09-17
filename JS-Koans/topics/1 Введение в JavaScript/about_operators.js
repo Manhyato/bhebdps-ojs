@@ -52,12 +52,12 @@ describe("About Operators (about_operators.js)", function() {
 
   it("typeof", function() {
     // what is the type of an empty object?
-    expect(void).toBe(typeof({}));
+    expect('object').toBe(typeof({}));
     // what is the type of a string?
-    expect(string).toBe(typeof('apple'));
+    expect('string').toBe(typeof('apple'));
     // what is the type of -5?
-    expect(int).toBe(typeof(-5));
+    expect('number').toBe(typeof(-5));
     // what is the type of false?
-    expect(boolean).toBe(typeof(false));
+    expect('boolean').toBe(typeof(false));
   });
 });
